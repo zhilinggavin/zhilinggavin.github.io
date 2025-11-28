@@ -1,5 +1,17 @@
 <h1 align="center">Hi 👋, I'm Gavin Yue</h1>
-<h3 align="center">I am a Machine Learning researcher and engineer. My research leverages AI to improve image anaysis and robotics decison making.</h3>
+<h3 align="center">Hi, I’m Gavin – a Machine Learning Engineer and Technology Cooperation Coordinator
+working at the intersection of AI research and real-world applications.</h3>
+
+# Gavin (Zhiling) Yue
+## AI, machine learning, and technology cooperation in the UK & EU
+
+
+I focus on:
+- AI & machine learning for real problems  
+- University–industry collaboration (UK & EU)  
+- AI for science and education
+
+---
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zhilinggavin&label=Profile%20views&color=0e75b6&style=flat" alt="zhilinggavin" /> </p>
 
@@ -37,3 +49,11 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=zhilinggavin&show_icons=true&locale=en" alt="zhilinggavin" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=zhilinggavin&" alt="zhilinggavin" /></p> -->
+
+
+
+
+
+
+
+
