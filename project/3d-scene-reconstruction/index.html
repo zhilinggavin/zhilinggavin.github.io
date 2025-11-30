@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+
+
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.145.0">
+<title>Stereo 3D Reconstruction | Volume Visualisation | Gavin Yue</title>
+
+
+<meta property="twitter:site" content="@Gavin_zhiling">
+<meta property="twitter:creator" content="@Gavin_zhiling">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Developed a stereo vision-based 3D reconstruction pipeline for instrument tracking and measurement with 95% accuracy, incorporating feature detection, fluoroscopic tracking, and 3D volume rendering on surgical and zebrafish imaging data.">
+
+
+<meta name="google-site-verification" content="SXazFKEYdrkxQRjO6ofQA45n5g-Uxn_sq3vVTYYnZ9U"/>
+
+
+<meta property="og:site_name" content="Gavin Yue">
+<meta property="og:title" content="Stereo 3D Reconstruction | Volume Visualisation | Gavin Yue">
+<meta property="og:description" content="Developed a stereo vision-based 3D reconstruction pipeline for instrument tracking and measurement with 95% accuracy, incorporating feature detection, fluoroscopic tracking, and 3D volume rendering on surgical and zebrafish imaging data." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="http://localhost:1313/project/3d-scene-reconstruction/" />
+<meta property="og:locale" content="en">
+
+
+
+
+      
+          <meta property="og:image" content="http://localhost:1313/project/3d-scene-reconstruction/featured.jpeg" >
+          <meta property="twitter:card" content="summary_large_image">
+          <meta name="twitter:image" content="http://localhost:1313/project/3d-scene-reconstruction/featured.jpeg" >
+      
+      
+  
+  <meta itemprop="name" content="Stereo 3D Reconstruction | Volume Visualisation">
+  <meta itemprop="description" content="Project Description As part of the Image-Guided Intervention module at Imperial College London, this project explored core computer vision methods for 3D scene understanding in medical applications. It combined stereo image analysis, geometric reasoning, and volumetric visualisation using real clinical and biological datasets.">
+  <meta itemprop="datePublished" content="2024-01-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-01-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="474">
+  <meta itemprop="image" content="http://localhost:1313/project/3d-scene-reconstruction/featured.jpeg">
+  <meta itemprop="keywords" content="Computer Vision,Medical">
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY8767RX3C"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-TY8767RX3C');
+        }
+      </script>
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/logo_rounded.ico" type="image/x-icon">
+  <link rel="icon" href="/img/logo_rounded.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.2f79f96c8b38f93881392f87753055203b777c753973466c443295a2caa459f2.css" integrity="sha256-L3n5bIs4&#43;TiBOS&#43;HdTBVIDt3fHU5c0ZsRDKVosqkWfI=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.9990ba2bfeec8585a251e396bb33b722babae0de5091d95c0522bb278a7846be.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container single">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:1313/" title="Home">
+      <img src="/img/logo_noBg.svg" class="dib db-l h2 w-auto" alt="Gavin Yue">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publication/" title="Research Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/contact/" title="Contact form">Contact</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Stereo 3D Reconstruction | Volume Visualisation</h1>
+        <h2 class="f4 mt0 mb4 lh-title measure">Developed a stereo vision-based 3D reconstruction pipeline for instrument tracking and measurement with 95% accuracy, incorporating feature detection, fluoroscopic tracking, and 3D volume rendering on surgical and zebrafish imaging data.</h2>
+        
+        <p class="f6 measure lh-copy mv1">By Gavin Yue in <a href="http://localhost:1313/categories/computer-vision">Computer Vision</a>  <a href="http://localhost:1313/categories/medical">Medical</a> </p>
+        
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="/project/3d-scene-reconstruction/project.pdf" ><i class="fas fa-file-pdf fa-lg fa-fw mr2"></i>Full Project</a>
+
+
+      </div>
+      
+      </header>
+      <section class="post-body pt5 pb4">
+        <!-- <div style="text-align: center"><img src="result1.png" alt="" width="75%"/></div>
+
+<div style="text-align: center"><img src="result2.png" alt="" width="75%"/></div> -->
+
+
+
+
+<h2 id="project-description">Project Description
+  <a href="#project-description" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>As part of the <em>Image-Guided Intervention</em> module at Imperial College London, this project explored core computer vision methods for 3D scene understanding in medical applications. It combined <strong>stereo image analysis, geometric reasoning, and volumetric visualisation</strong> using real clinical and biological datasets.</p>
+<figure style="text-align: center">
+    <img src="stereo_data.jpeg" alt="" width="75%"/>
+    <figcaption>Figure: Example stereo images from a video sequence, used for 3D scene reconstruction</figcaption>
+</figure>
+<hr>
+
+
+
+
+<h2 id="-project-highlights">🧠 Project Highlights
+  <a href="#-project-highlights" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+
+
+
+
+<h3 id="-epipolar-geometry--tracking">🔹 Epipolar Geometry &amp; Tracking
+  <a href="#-epipolar-geometry--tracking" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>Analysed camera motion and depth perception under pure translation scenarios.</li>
+<li>Interpreted and illustrated epipolar constraints, explaining the impact of geometric configuration on feature correspondences.</li>
+<li>Proposed a real-time instrument tracking system for catheter navigation using fluoroscopy and optional electromagnetic integration.</li>
+<li>Developed and justified coordinate transformation pipelines for surgical navigation in the anatomical frame.</li>
+</ul>
+
+
+
+
+<h2 id="-3d-scene-reconstruction-">🔷 3D Scene Reconstruction 🚀
+  <a href="#-3d-scene-reconstruction-" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This component focused on <strong>reconstructing 3D structure</strong> from stereo endoscopic images of a surgical scene:</p>
+<ul>
+<li><strong>Salient Features</strong>: Identified keypoints with strong geometric distinctiveness across stereo pairs to support reliable correspondence.</li>
+<li><strong>Stereo Matching</strong>: Matched features between stereo views and filtered outliers based on geometric consistency.</li>
+<li><strong>Fundamental Matrix Estimation</strong>: Derived the epipolar geometry governing the stereo image pair to constrain valid correspondences.</li>
+<li><strong>Disparity Mapping &amp; Depth Recovery</strong>: Generated a dense disparity map and back-projected image points to compute real-world 3D coordinates.</li>
+<li><strong>Quantitative Tool Analysis</strong>: Estimated the physical diameter of a surgical tool (∼7.53 mm) directly from the reconstructed point cloud using geometric analysis, achieving 95% accuracy.</li>
+</ul>
+<blockquote>
+<p>✅ Demonstrated the full stereo vision pipeline from calibrated image pairs to quantitative 3D metric extraction in a surgical context — achieving 95% accuracy in depth estimation.</p></blockquote>
+<figure style="text-align: center">
+    <img src="result1.jpeg" alt="" width="80%"/>
+    <figcaption>Salient features on the stereo images. (Left) Left camera frame</figcaption>
+    <img src="result2.jpeg" alt="" width="80%"/>
+    <figcaption>Composite image with correctly matched points in Montage style</figcaption>
+    <img src="result3.jpeg" alt="" width="80%"/>
+    <figcaption>Disparity map with geometry analysis</figcaption>
+    <img src="result4.jpeg" alt="" width="80%"/>
+    <figcaption>Shaft diameter calculated from the 3D data (x, y, z) and (x,y) along boundary lines within highlighted red regions</figcaption>
+</figure>
+
+
+
+
+<h2 id="-volumetric-data-visualisation-">🔷 Volumetric Data Visualisation 🧊
+  <a href="#-volumetric-data-visualisation-" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Using 3D volumetric data from <strong>optical projection tomography</strong>, this part focused on the <strong>visual interpretation of biological structure</strong>:</p>
+<ul>
+<li><strong>Transfer Function Design</strong>: Created mappings from voxel intensity to RGBA values, enabling anatomical realism in CT renderings (bone, liver, fat).</li>
+<li><strong>Maximum Intensity Projection (MIP)</strong>: Implemented orthogonal MIP projections along the x, y, and z axes to highlight internal structure without segmentation.</li>
+<li><strong>Interpretability</strong>: Demonstrated how projection-based rendering supports rapid insight in biomedical imaging contexts.</li>
+</ul>
+<blockquote>
+<p>✅ Applied scientific visualisation techniques to enhance interpretability of 3D biomedical volumes, supporting both qualitative and quantitative analysis.</p></blockquote>
+<figure style="text-align: center">
+    <img src="result5.jpeg" alt="" width="80%"/>
+    <figcaption>The colour and opaque setup for rendering of a CT dataset of the abdomen</figcaption>
+    <img src="result6.jpeg" alt="" width="80%"/>
+    <figcaption>Drawing of transfer functions</figcaption>
+    <img src="result7.jpeg" alt="" width="80%"/>
+    <figcaption>Projection along the 3 orthogonal directions based on MIP method</figcaption>
+</figure>
+<hr>
+
+
+
+
+<h2 id="-tools--techniques">🧪 Tools &amp; Techniques
+  <a href="#-tools--techniques" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ul>
+<li>Python, MATLAB (SURF, epipolar geometry, disparity mapping)</li>
+<li>Optical Projection Tomography volume rendering</li>
+<li>Real-world datasets from SCARED and zebrafish imaging</li>
+<li>Frame transformation and registration analysis</li>
+</ul>
+
+
+
+
+<h2 id="-project-info">🏫 Project Info
+  <a href="#-project-info" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ul>
+<li><strong>Institution</strong>: Imperial College London – The Hamlyn Centre</li>
+<li><strong>Programme</strong>: Image Guided Intervention for Robotic Surgery</li>
+<li><strong>Supervisor</strong>: Dr. Stamatia (Matina) Giannarou</li>
+<li><strong>Student</strong>: Gavin Yue</li>
+<li><strong>Submitted</strong>: January 2024</li>
+</ul>
+<hr>
+
+          
+          
+          
+<details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">January 1, 2024</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">3 minute read, 474 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:1313/categories/computer-vision">Computer Vision</a>  <a href="http://localhost:1313/categories/medical">Medical</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+        
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="http://localhost:1313/project/mri-reconstruction/">&larr; MRI Reconstruction Artefacts: Simulation &amp; Mitigation Strategies</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="http://localhost:1313/project/robotic-arm/">Robotic Arms | Trajectory Plan &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2025 Gavin Yue
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/gavin-yue/" title="" target="_blank" rel="me noopener">
+      
+        <i class="fab fa-linkedin fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/zhilinggavin" title="" target="_blank" rel="me noopener">
+      
+        <i class="fab fa-github fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=0w6wRvkAAAAJ&amp;hl=en" title="" target="_blank" rel="me noopener">
+      
+        <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/CV-Gavin-ComputerVisionMIS.pdf" title="" >
+      
+        <i class="ai ai-cv fa-lg fa-fw"></i>
+      
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact Form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License Details">License</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gavin Yue</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources for Data Viz Accessibility</title>
+      <link>http://localhost:1313/blog/curated-compilations/data-viz-a11y/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/curated-compilations/data-viz-a11y/</guid>
+      <description>&lt;script src=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/clipboard/clipboard.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script&gt;window.xaringanExtraClipboard(null, {&#34;button&#34;:&#34;&lt;i class=\&#34;fa fa-clipboard\&#34;&gt;&lt;\/i&gt; Copy Code&#34;,&#34;success&#34;:&#34;&lt;i class=\&#34;fa fa-check\&#34; style=\&#34;color: #90BE6D\&#34;&gt;&lt;\/i&gt; Copied!&#34;,&#34;error&#34;:&#34;Press Ctrl+C to Copy&#34;})&lt;/script&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/font-awesome/css/all.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/font-awesome/css/v4-shims.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;/*.main {&#xA;  display: grid | inline-grid;&#xA;}&#xA;&#xA;.grid-container {&#xA;  display: grid;&#xA;  grid-template-columns: 1fr 4fr;&#xA;  grid-auto-flow: row;&#xA;  grid-gap: 10px 10px;&#xA;}&#xA;&#xA;&#xA;.grid-item {&#xA;  /*background-color: rgba(255, 255, 255, 0.8);*/&#xA;  border: 1px solid rgba(0, 0, 0, 0.8);&#xA;  /*padding: 20px;&#xA;  font-size: 18px;&#xA;  line-height: 1.5em;*/&#xA;  text-align: left;&#xA;  height: auto;&#xA;} */&#xA;&#xA;/* -- css for images --*/  &#xA;.page-main img {&#xA;  box-shadow: 0px 0px 2px 2px rgba( 0, 0, 0, 0.2 );&#xA;  #/* ease | ease-in | ease-out | linear */&#xA;  transition: transform ease-in-out 2s;&#xA;}&#xA;&#xA;.page-main img:hover {&#xA;  transform: scale(1.4);&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;strong&gt;Updated on 2021-11-19&lt;/strong&gt; to include a link to a series of educational blog posts written by Mara Averick that cover {highcharter} and the accessibility module in detail. Thank you Mara!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WAVE Audit No. 1</title>
+      <link>http://localhost:1313/blog/a11y-website/audit-1/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/a11y-website/audit-1/</guid>
+      <description>&lt;style type=&#34;text/css&#34;&gt;&#xA;.page-main img {&#xA;  box-shadow: 0px 0px 2px 2px rgba( 0, 0, 0, 0.2 );&#xA;  #/* ease | ease-in | ease-out | linear */&#xA;  transition: transform ease-in-out 0.6s;&#xA;}&#xA;&#xA;.page-main img:hover {&#xA;  transform: scale(1.4);&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Did you know that 97.4% of home pages have web accessibility failures???&lt;/strong&gt; :scream:&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;This finding is one of many from an accessibility analysis that non-profit WebAIM (Web Accessibility in Mind) conducts annually on home pages of the top one million websites. You can find a summary of these findings in a WebAIM &#xA;&lt;a href=&#34;https://webaim.org/blog/webaim-million-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; and detailed information in the &#xA;&lt;a href=&#34;https://webaim.org/projects/million/#wcag&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full report&lt;/a&gt;, both published on April 30, 2021.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publication Projects</title>
+      <link>http://localhost:1313/publication/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/</guid>
+      <description>Exploring projects resulted in publciation</description>
+    </item>
+    <item>
+      <title>DiffSeg: Diffusion-Based Weakly Supervised Segmentation for Fibrosis</title>
+      <link>http://localhost:1313/project/diffusion-wsss/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/diffusion-wsss/</guid>
+      <description>&lt;!-- Imperial_logo.png --&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center; align-items: center;&#34;&gt;&#xA;  &lt;div style=&#34;margin-right: 15px; text-align: center;&#34;&gt;&#xA;    &lt;img src=&#34;imgs/ieee-isbi-2025-logo.png&#34; alt=&#34;&#34; height=&#34;90px&#34;/&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div style=&#34;margin-left: 15px; text-align: center;&#34;&gt;&#xA;    &lt;img src=&#34;imgs/Imperial_logo.png&#34; alt=&#34;&#34; height=&#34;30px&#34;/&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;figure style=&#34;text-align: center&#34;&gt;&#xA;    &lt;!-- &lt;img src = &#34;imgs/ieee-isbi-2025-logo.png&#34; width=&#34;50%&#34;/&gt; --&gt;&#xA;    &lt;img src=&#34;imgs/pf_intro.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&#xA;&lt;/figure&gt;&#xA;&lt;caption&gt; Figure 1. Pulmonary fibrosis illustartion. Fibrosis can cause irreversible lung damage and is associated with increased mortality. &lt;/caption&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;publication--presentation&#34;&gt;Publication &amp;amp; Presentation&#xA;  &lt;a href=&#34;#publication--presentation&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This project was &lt;strong&gt;published at &#xA;&lt;a href=&#34;https://biomedicalimaging.org/2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE ISBI 2025&lt;/a&gt;&lt;/strong&gt; and featured as an &lt;strong&gt;invited presentation&lt;/strong&gt; in &lt;strong&gt;April 2025, Houston, TX, USA&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Decoding Report Generators: A Cyclic Vision-Language Adapter for Counterfactual Explanations</title>
+      <link>http://localhost:1313/publication/2025-ijcai-report/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025-ijcai-report/</guid>
+      <description>Developed a multi-modal AI model (Vision + Text) to enable controllable image manipulation via text for automated clinical diagnostics.</description>
+    </item>
+    <item>
+      <title>Enhancing Weakly Supervised Semantic Segmentation for Fibrosis via Controllable Image Generation</title>
+      <link>http://localhost:1313/publication/2025-isbi-wsss/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025-isbi-wsss/</guid>
+      <description>Developed AI tools integrating Generative AI for precise pattern detection and segmentation, applied to medical image analysis and automation</description>
+    </item>
+    <item>
+      <title>Auto Lung Anatomy Segmentation</title>
+      <link>http://localhost:1313/project/auto-lung-segmentation/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/auto-lung-segmentation/</guid>
+      <description>&lt;h1 id=&#34;automatic-lung-segmentation&#34;&gt;Automatic Lung segmentation&#xA;  &lt;a href=&#34;#automatic-lung-segmentation&#34; title=&#34;Link to heading&#34;&gt;&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&#xA;  &lt;a href=&#34;#introduction&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The automatic segmentation of the lung region in chest X-rays (CXR) aids doctors in diagnosing various lung diseases. However, severe lung deformities and indistinct lung boundaries caused by serious conditions can lead to errors in the segmentation model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Explainable AI - Controlable Image Generation</title>
+      <link>http://localhost:1313/project/explanable-ai/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/explanable-ai/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&#xA;  &lt;a href=&#34;#introduction&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This project investigates semantic disentanglement techniques to analyse the intermediate latent spaces in generative AI models, such as &lt;strong&gt;StyleGAN&lt;/strong&gt; and &lt;strong&gt;Diffusion models&lt;/strong&gt;. By isolating and utilising these disentangled features, we aim to develop prognostic models for lung diseases that are more interpretable for clinicians and researchers. This approach will facilitate the identification of novel biomarkers for lung disease prognosis. The detailed project in medical domain can be found in the &#xA;&lt;a href=&#34;project/explanable-ai/poster_hsmr.pdf&#34;&gt;poster&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Evaluating Generative AI: GAN-Based Models</title>
+      <link>http://localhost:1313/project/evaluate-genai/</link>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/evaluate-genai/</guid>
+      <description>&lt;h2 id=&#34;gan-based-generative-ai-evaluation&#34;&gt;GAN-based Generative AI Evaluation&#xA;  &lt;a href=&#34;#gan-based-generative-ai-evaluation&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Conducted an in-depth evaluation of state-of-the-art Generative Adversarial Networks (GANs) and their applications. Assessed model performance through benchmarking, analysing factors such as image quality, training stability, and computational efficiency. Explored advancements in GAN architectures and their practical implementations across various domains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MRI Reconstruction Artefacts: Simulation &amp; Mitigation Strategies</title>
+      <link>http://localhost:1313/project/mri-reconstruction/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mri-reconstruction/</guid>
+      <description>A technical exploration of &lt;strong&gt;MRI reconstruction degradation&lt;/strong&gt; caused by &lt;strong&gt;k-space&lt;/strong&gt; sampling errors and patient motion, with clinically informed mitigation strategies.</description>
+    </item>
+    <item>
+      <title>Stereo 3D Reconstruction | Volume Visualisation</title>
+      <link>http://localhost:1313/project/3d-scene-reconstruction/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/3d-scene-reconstruction/</guid>
+      <description>&lt;!-- &lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;result1.png&#34; alt=&#34;&#34; width=&#34;75%&#34;/&gt;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;result2.png&#34; alt=&#34;&#34; width=&#34;75%&#34;/&gt;&lt;/div&gt; --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;project-description&#34;&gt;Project Description&#xA;  &lt;a href=&#34;#project-description&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;As part of the &lt;em&gt;Image-Guided Intervention&lt;/em&gt; module at Imperial College London, this project explored core computer vision methods for 3D scene understanding in medical applications. It combined &lt;strong&gt;stereo image analysis, geometric reasoning, and volumetric visualisation&lt;/strong&gt; using real clinical and biological datasets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Robotic Arms | Trajectory Plan</title>
+      <link>http://localhost:1313/project/robotic-arm/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/robotic-arm/</guid>
+      <description>&lt;h1 id=&#34;project-introduction&#34;&gt;Project Introduction&#xA;  &lt;a href=&#34;#project-introduction&#34; title=&#34;Link to heading&#34;&gt;&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This project involves robotic modelling based on a real &lt;strong&gt;6-DOF robotic arm&lt;/strong&gt;. The robotic arm&amp;rsquo;s &lt;strong&gt;path planning and control&lt;/strong&gt; were simulated and validated using &lt;strong&gt;MATLAB&lt;/strong&gt; and &lt;strong&gt;CoppeliaSim&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The final evaluation was based on &lt;strong&gt;real-world performance&lt;/strong&gt; during the &lt;strong&gt;Live Demonstration&lt;/strong&gt;, where the project successfully achieved an &lt;strong&gt;80% grade&lt;/strong&gt;.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;assessment---live-demonstration&#34;&gt;Assessment - Live Demonstration&#xA;  &lt;a href=&#34;#assessment---live-demonstration&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;task-1-grab-and-place&#34;&gt;Task 1: Grab and Place&#xA;  &lt;a href=&#34;#task-1-grab-and-place&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Objective:&lt;/strong&gt; Pick up a cube and accurately place it in a specified spot with a &lt;strong&gt;maximum error of 1mm&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Challenge:&lt;/strong&gt; The &lt;strong&gt;destination point&lt;/strong&gt; exceeds the &lt;strong&gt;maximum reach&lt;/strong&gt; of the robotic arm when using the tip tool.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;task-2-minimally-invasive-surgery-challenge&#34;&gt;Task 2: Minimally Invasive Surgery Challenge&#xA;  &lt;a href=&#34;#task-2-minimally-invasive-surgery-challenge&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Goal: Control a pen as a surgical tool to reach &lt;strong&gt;four target points&lt;/strong&gt; inside a box.&lt;/li&gt;&#xA;&lt;li&gt;Constraint: The tool must pass through a &lt;strong&gt;0.5 cm hole&lt;/strong&gt; while maintaining a &lt;strong&gt;maximum error of 5 mm&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: space-between;&#34;&gt;&#xA;  &lt;video controls width=&#34;69%&#34; muted&gt;&#xA;    &lt;source src=&#34;video1.webm&#34; type=&#34;video/webm&#34;&gt;&#xA;    Your browser does not support the video tag.&#xA;  &lt;/video&gt;&#xA;  &lt;video controls width=&#34;30%&#34; muted&gt;&#xA;    &lt;source src=&#34;video2.webm&#34; type=&#34;video/webm&#34;&gt;&#xA;    Your browser does not support the video tag.&#xA;  &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;figcaption&gt;Left: (Task 1) Robotic arm demonstration in action.&lt;/figcaption&gt;  &#xA;&lt;figcaption&gt;Right: (Task 2) Minimally Invasive Surgery demonstration.&lt;/figcaption&gt;&#xA;&lt;!-- &lt;video controls width=&#34;100%&#34;&gt;&#xA;  &lt;source src=&#34;video3.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;  Your browser does not support the video tag.&#xA;&lt;/video&gt; --&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;robot-modelling-and-mdh-table&#34;&gt;Robot Modelling and MDH Table&#xA;  &lt;a href=&#34;#robot-modelling-and-mdh-table&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;robot_model.png&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;joint-space-control&#34;&gt;Joint Space Control&#xA;  &lt;a href=&#34;#joint-space-control&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;velocity.png&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;simulation&#34;&gt;Simulation&#xA;  &lt;a href=&#34;#simulation&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;simulation.png&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;minimally-invasive-surgery-challenge&#34;&gt;Minimally Invasive Surgery Challenge&#xA;  &lt;a href=&#34;#minimally-invasive-surgery-challenge&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;solution-design-remote-center-of-motion-rcm&#34;&gt;Solution Design: remote center of motion (RCM)&#xA;  &lt;a href=&#34;#solution-design-remote-center-of-motion-rcm&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;surgical_rcm.png&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/div&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&lt;img src=&#34;surgical.png&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Hyperspectral Imaging – Optical Modelling for Histological Image Segmentation</title>
+      <link>http://localhost:1313/project/hsi-absorption/</link>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hsi-absorption/</guid>
+      <description>Simulating &lt;strong&gt;hyperspectral absorption&lt;/strong&gt; in MATLAB for label-free &lt;strong&gt;tissue segmentation&lt;/strong&gt; using &lt;strong&gt;haemoglobin spectral&lt;/strong&gt; properties</description>
+    </item>
+    <item>
+      <title>Medical Image Analysis - Vessel Segmentation and Filtering</title>
+      <link>http://localhost:1313/project/medical-image-analysis/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/medical-image-analysis/</guid>
+      <description>&lt;p&gt;This project, completed as part of the &lt;em&gt;Image-Guided Intervention&lt;/em&gt; module at Imperial College London, explores classical image processing techniques for analyzing retinal images from the DRIVE dataset. The goal is to detect and segment blood vessels using low-level computer vision methods without relying on deep learning.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;  &lt;img src=&#34;retina.jpeg&#34; alt=&#34;&#34; width=&#34;100%&#34;/&gt;&#xA;  &lt;p style=&#34;text-align: center; font-style: italic;&#34;&gt;Figure: Retinal image used for vessel segmentation&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;### 🧠 Key Tasks &amp; Techniques&#xA;&lt;p&gt;&lt;strong&gt;1. Edge Detection&lt;/strong&gt;&lt;br&gt;&#xA;Various 3×3 kernels were implemented to detect horizontal, vertical, and diagonal lines. The Laplacian of Gaussian (LoG) operator was applied with different kernel sizes to examine sensitivity and noise robustness across scales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Philly Center City District Sips 2023: An Interactive Map</title>
+      <link>http://localhost:1313/blog/ccd-sips/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ccd-sips/</guid>
+      <description>An interactive map showing restaurants participating in CCD Sips 2023</description>
+    </item>
+    <item>
+      <title>Data Analytics 101</title>
+      <link>http://localhost:1313/talk/penn-community-scholars/</link>
+      <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/penn-community-scholars/</guid>
+      <description>Practical talk highlighting how data can be leveraged to support community-academic partnerships</description>
+    </item>
+    <item>
+      <title>Thinking Big with Maps in R</title>
+      <link>http://localhost:1313/talk/thinking-big/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/thinking-big/</guid>
+      <description>&lt;a href=&#34;https://canssiontario.utoronto.ca/event/statistical-software-conference/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CANSSI Ontario Statistical Software Conference&lt;/a&gt; talk on interactive map-making with large vector data</description>
+    </item>
+    <item>
+      <title>Philly Center City District Sips 2022: An Interactive Map</title>
+      <link>http://localhost:1313/talk/ccd-sips/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/ccd-sips/</guid>
+      <description>&lt;a href=&#34;https://www.rladiesphilly.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Philly&lt;/a&gt; workshop on webscraping, geocoding, and interactive map-making</description>
+    </item>
+    <item>
+      <title>Philly Center City District Sips 2022: An Interactive Map</title>
+      <link>http://localhost:1313/blog/ccd-sips/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ccd-sips/</guid>
+      <description>An interactive map showing restaurants participating in CCD Sips 2022 &amp;amp; a companion R tutorial on webscraping, geocoding, and map-making</description>
+    </item>
+    <item>
+      <title>Exploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records</title>
+      <link>http://localhost:1313/talk/dbei-research-day/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/dbei-research-day/</guid>
+      <description>Flashtalk and poster presenting preliminary results for a study on TBI among female patients at Penn Medicine</description>
+    </item>
+    <item>
+      <title>Lessons Learned from the EHR</title>
+      <link>http://localhost:1313/talk/tdw-ehr-lessons/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/tdw-ehr-lessons/</guid>
+      <description>&lt;a href=&#34;https://rohanalexander.com/toronto_data_workshop.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Toronto Data Workshop&lt;/a&gt; talk about working with Electronic Health Record data</description>
+    </item>
+    <item>
+      <title>Hello Umami: Deploying a Privacy-Friendly Open Source Tool for Web Analytics</title>
+      <link>http://localhost:1313/blog/hello-umami/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-umami/</guid>
+      <description>A use case for adding Umami web analytics to a blogdown site and deploying using Railway.</description>
+    </item>
+    <item>
+      <title>Professional, Polished, Presentable: Making Great Slides with xaringan</title>
+      <link>http://localhost:1313/talk/presentable-user2021/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/presentable-user2021/</guid>
+      <description>A &#xA;&lt;a href=&#34;https://user2021.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;useR!2021&lt;/a&gt; tutorial about making great slides with xaringan</description>
+    </item>
+    <item>
+      <title>Hello Hugo Apéro: Converting a Blogdown Site from Hugo Academic</title>
+      <link>http://localhost:1313/blog/hello-hugo-apero/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-hugo-apero/</guid>
+      <description>A tutorial on how to take your personal Hugo Academic/Wowchemy website and convert it to the Hugo Apéro theme</description>
+    </item>
+    <item>
+      <title>Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community</title>
+      <link>http://localhost:1313/talk/data-viz-accessibility/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/data-viz-accessibility/</guid>
+      <description>Data visualization accessibility talk to share what we found after scraping alternative (alt) text from data viz shared on Twitter as part of the #TidyTuesday social project.</description>
+    </item>
+    <item>
+      <title>The Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data</title>
+      <link>http://localhost:1313/talk/amia-informatics-summit/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/amia-informatics-summit/</guid>
+      <description>Applied Clinical Research Informatics: Solving Real World Problems. Oral Presentations S17: March 23, 2021 11:30am-1pm ET</description>
+    </item>
+    <item>
+      <title>Writing Presentations in R</title>
+      <link>http://localhost:1313/talk/xaringan-deploy-demo/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/xaringan-deploy-demo/</guid>
+      <description>R-Ladies Seattle package demonstrations showing how to make beautiful slides with xaringan and how to deploy them.</description>
+    </item>
+    <item>
+      <title>Deploying xaringan Slides with GitHub Pages</title>
+      <link>http://localhost:1313/blog/deploying-xaringan-slides/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/deploying-xaringan-slides/</guid>
+      <description>A ten-step workflow for creating an HTML xaringan slide deck and deploying it to the web using GitHub Pages</description>
+    </item>
+    <item>
+      <title>From Learn-R to Teach-R: An Expert Panel on Effective R Instruction</title>
+      <link>http://localhost:1313/talk/r-teaching-panel/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/r-teaching-panel/</guid>
+      <description>An R-Ladies Philly panel and discussion event on R instruction and education.</description>
+    </item>
+    <item>
+      <title>Introducción al Paquete xaringan</title>
+      <link>http://localhost:1313/talk/introduccion-xaringan/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/introduccion-xaringan/</guid>
+      <description>Taller del paquete xaringan para presentaciones,&lt;br&gt;creado para R-Ladies Xalapa</description>
+    </item>
+    <item>
+      <title>Sharing Your Work with xaringan: The Basics and Beyond</title>
+      <link>http://localhost:1313/talk/xaringan-basics-and-beyond/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/xaringan-basics-and-beyond/</guid>
+      <description>An introduction to xaringan for presentations, created for the &#xA;&lt;a href=&#34;https://nhsrcommunity.com/about/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NHS-R Community&lt;/a&gt; &#xA;&lt;a href=&#34;https://nhsrcommunity.com/nhsr-conference-2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2020 Virtual Conference&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Becoming certified as an RStudio Tidyverse Instructor</title>
+      <link>http://localhost:1313/blog/rstudio-instructor-certification-tidyverse/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/rstudio-instructor-certification-tidyverse/</guid>
+      <description>An overview of the RStudio Instructor certification process and collection of resources to support anyone on their certification journey.</description>
+    </item>
+    <item>
+      <title>An Antarctic Tour of the Tidyverse</title>
+      <link>http://localhost:1313/talk/tour-of-the-tidyverse/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/tour-of-the-tidyverse/</guid>
+      <description>An introductory tidyverse tutorial created and presented for &#xA;&lt;a href=&#34;https://rladieschicago.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Chicago&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Customizing Hugo Academic&#39;s Dark Mode with Help from Atom</title>
+      <link>http://localhost:1313/blog/dark-theme-custom-with-atom/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/dark-theme-custom-with-atom/</guid>
+      <description>Tutorial on how to customize the dark mode in Hugo&amp;rsquo;s Academic theme with help from the Atom text editor package Pigments.</description>
+    </item>
+    <item>
+      <title>Migrating from Trello to Airtable: Working with JSON Data in R</title>
+      <link>http://localhost:1313/blog/trello-to-airtable/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/trello-to-airtable/</guid>
+      <description>Tutorial on how to migrate your current Trello board to an Airtable base from start to finish.</description>
+    </item>
+    <item>
+      <title>Philly Center City Sips 2019: An Interactive Map</title>
+      <link>http://localhost:1313/blog/ccd-sips/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ccd-sips/</guid>
+      <description>An interactive map showing restaurants participating in Philly’s Center City District Sips 2019.</description>
+    </item>
+    <item>
+      <title>Send me a note</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;** Contact page don&amp;rsquo;t contain a body, just the front matter above.&#xA;See form.html in the layouts folder.&lt;/p&gt;&#xA;&lt;p&gt;Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.&#xA;**&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/academic_journey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/academic_journey/</guid>
+      <description>&lt;h2 id=&#34;academic-excellence-and-research-passion&#34;&gt;Academic Excellence and Research Passion&#xA;  &lt;a href=&#34;#academic-excellence-and-research-passion&#34; title=&#34;Link to heading&#34;&gt;&lt;svg class=&#34;anchor-symbol&#34; aria-hidden=&#34;true&#34; height=&#34;26&#34; width=&#34;26&#34; viewBox=&#34;0 0 22 22&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xA;      &lt;path d=&#34;M0 0h24v24H0z&#34; fill=&#34;currentColor&#34;&gt;&lt;/path&gt;&#xA;      &lt;path d=&#34;M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z&#34;&gt;&lt;/path&gt;&#xA;    &lt;/svg&gt;&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;My academic journey has been driven by a relentless pursuit of excellence.&lt;/p&gt;&#xA;&lt;p&gt;I ranked within the &lt;strong&gt;top 1%&lt;/strong&gt; in Henan Province’s Gaokao, achieving &lt;strong&gt;91.3% in mathematics&lt;/strong&gt;, and have maintained this standard throughout my education.&lt;/p&gt;&#xA;&lt;p&gt;I earned &lt;strong&gt;First Class Honours&lt;/strong&gt; in two BEng degrees:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More Projects to Be Added Soon ...</title>
+      <link>http://localhost:1313/project/next/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/next/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geospatial on Gavin Yue</title>
+    <link>http://localhost:1313/tags/geospatial/</link>
+    <description>Recent content in Geospatial on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 10 Nov 2022 16:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/geospatial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking Big with Maps in R</title>
+      <link>http://localhost:1313/talk/thinking-big/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/thinking-big/</guid>
+      <description>&lt;a href=&#34;https://canssiontario.utoronto.ca/event/statistical-software-conference/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CANSSI Ontario Statistical Software Conference&lt;/a&gt; talk on interactive map-making with large vector data</description>
+    </item>
+  </channel>
+</rss>

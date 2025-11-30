@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Gavin Yue</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaflet</title>
+      <link>http://localhost:1313/tags/leaflet/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/leaflet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maps</title>
+      <link>http://localhost:1313/tags/maps/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/maps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/tags/r/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotstxt</title>
+      <link>http://localhost:1313/tags/robotstxt/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/robotstxt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rvest</title>
+      <link>http://localhost:1313/tags/rvest/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rvest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidygeocoder</title>
+      <link>http://localhost:1313/tags/tidygeocoder/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidygeocoder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webscraping</title>
+      <link>http://localhost:1313/tags/webscraping/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/webscraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geospatial</title>
+      <link>http://localhost:1313/tags/geospatial/</link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/geospatial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R-Ladies</title>
+      <link>http://localhost:1313/tags/r-ladies/</link>
+      <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/r-ladies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ggmap</title>
+      <link>http://localhost:1313/tags/ggmap/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ggmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EHR</title>
+      <link>http://localhost:1313/tags/ehr/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ehr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TBI</title>
+      <link>http://localhost:1313/tags/tbi/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tbi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogdown</title>
+      <link>http://localhost:1313/tags/blogdown/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A11y</title>
+      <link>http://localhost:1313/tags/a11y/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/a11y/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Viz</title>
+      <link>http://localhost:1313/tags/data-viz/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-viz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ggpattern</title>
+      <link>http://localhost:1313/tags/ggpattern/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ggpattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Highcharter</title>
+      <link>http://localhost:1313/tags/highcharter/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/highcharter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UseR</title>
+      <link>http://localhost:1313/tags/user/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/user/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xaringan</title>
+      <link>http://localhost:1313/tags/xaringan/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xaringan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/tags/accessibility/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/tags/git/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSelenium</title>
+      <link>http://localhost:1313/tags/rselenium/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rselenium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rtweet</title>
+      <link>http://localhost:1313/tags/rtweet/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rtweet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TidyTuesday</title>
+      <link>http://localhost:1313/tags/tidytuesday/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidytuesday/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TidyTuesdayAltText</title>
+      <link>http://localhost:1313/tags/tidytuesdayalttext/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidytuesdayalttext/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AMIA</title>
+      <link>http://localhost:1313/tags/amia/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/amia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pregnancy</title>
+      <link>http://localhost:1313/tags/pregnancy/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pregnancy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sickle Cell Disease</title>
+      <link>http://localhost:1313/tags/sickle-cell-disease/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sickle-cell-disease/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Español</title>
+      <link>http://localhost:1313/tags/espa%C3%B1ol/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/espa%C3%B1ol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>English</title>
+      <link>http://localhost:1313/tags/english/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RStudio</title>
+      <link>http://localhost:1313/tags/rstudio/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidyverse</title>
+      <link>http://localhost:1313/tags/tidyverse/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atom</title>
+      <link>http://localhost:1313/tags/atom/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/atom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Json</title>
+      <link>http://localhost:1313/tags/json/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jsonlite</title>
+      <link>http://localhost:1313/tags/jsonlite/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/jsonlite/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

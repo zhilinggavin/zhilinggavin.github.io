@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Gavin Yue</title>
+    <link>http://localhost:1313/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philly Center City District Sips 2022: An Interactive Map</title>
+      <link>http://localhost:1313/blog/ccd-sips/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ccd-sips/</guid>
+      <description>An interactive map showing restaurants participating in CCD Sips 2022 &amp;amp; a companion R tutorial on webscraping, geocoding, and map-making</description>
+    </item>
+    <item>
+      <title>Hello Hugo Apéro: Converting a Blogdown Site from Hugo Academic</title>
+      <link>http://localhost:1313/blog/hello-hugo-apero/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-hugo-apero/</guid>
+      <description>A tutorial on how to take your personal Hugo Academic/Wowchemy website and convert it to the Hugo Apéro theme</description>
+    </item>
+    <item>
+      <title>Deploying xaringan Slides with GitHub Pages</title>
+      <link>http://localhost:1313/blog/deploying-xaringan-slides/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/deploying-xaringan-slides/</guid>
+      <description>A ten-step workflow for creating an HTML xaringan slide deck and deploying it to the web using GitHub Pages</description>
+    </item>
+    <item>
+      <title>An Antarctic Tour of the Tidyverse</title>
+      <link>http://localhost:1313/talk/tour-of-the-tidyverse/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/tour-of-the-tidyverse/</guid>
+      <description>An introductory tidyverse tutorial created and presented for &#xA;&lt;a href=&#34;https://rladieschicago.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Chicago&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Customizing Hugo Academic&#39;s Dark Mode with Help from Atom</title>
+      <link>http://localhost:1313/blog/dark-theme-custom-with-atom/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/dark-theme-custom-with-atom/</guid>
+      <description>Tutorial on how to customize the dark mode in Hugo&amp;rsquo;s Academic theme with help from the Atom text editor package Pigments.</description>
+    </item>
+    <item>
+      <title>Migrating from Trello to Airtable: Working with JSON Data in R</title>
+      <link>http://localhost:1313/blog/trello-to-airtable/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/trello-to-airtable/</guid>
+      <description>Tutorial on how to migrate your current Trello board to an Airtable base from start to finish.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision - Medical on Gavin Yue</title>
+    <link>http://localhost:1313/categories/computer-vision---medical/</link>
+    <description>Recent content in Computer Vision - Medical on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/computer-vision---medical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MRI Reconstruction Artefacts: Simulation &amp; Mitigation Strategies</title>
+      <link>http://localhost:1313/project/mri-reconstruction/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mri-reconstruction/</guid>
+      <description>A technical exploration of &lt;strong&gt;MRI image degradation&lt;/strong&gt; caused by &lt;strong&gt;k-space&lt;/strong&gt; sampling errors and patient motion, with clinically informed mitigation strategies.</description>
+    </item>
+  </channel>
+</rss>

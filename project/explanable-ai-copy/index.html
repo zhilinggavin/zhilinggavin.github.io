@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+
+
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.145.0">
+<title>Explainable AI - Controlable Image Generation | Gavin Yue</title>
+
+
+<meta property="twitter:site" content="@Gavin_zhiling">
+<meta property="twitter:creator" content="@Gavin_zhiling">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Analysed the intermediate latent spaces in generative AI models: StyleGAN and Diffusion models.">
+
+
+<meta name="google-site-verification" content="SXazFKEYdrkxQRjO6ofQA45n5g-Uxn_sq3vVTYYnZ9U"/>
+
+
+<meta property="og:site_name" content="Gavin Yue">
+<meta property="og:title" content="Explainable AI - Controlable Image Generation | Gavin Yue">
+<meta property="og:description" content="Analysed the intermediate latent spaces in generative AI models: StyleGAN and Diffusion models." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="http://localhost:1313/project/explanable-ai-copy/" />
+<meta property="og:locale" content="en">
+
+
+
+
+      
+          <meta property="og:image" content="http://localhost:1313/project/sidebar-listing.jpg" >
+          <meta property="twitter:card" content="summary_large_image">
+          <meta name="twitter:image" content="http://localhost:1313/project/sidebar-listing.jpg" >
+      
+      
+  
+  <meta itemprop="name" content="Explainable AI - Controlable Image Generation">
+  <meta itemprop="description" content="Introduction This project investigates semantic disentanglement techniques to analyse the intermediate latent spaces in generative AI models, such as StyleGAN and Diffusion models. By isolating and utilising these disentangled features, we aim to develop prognostic models for lung diseases that are more interpretable for clinicians and researchers. This approach will facilitate the identification of novel biomarkers for lung disease prognosis. The detailed project in medical domain can be found in the poster.">
+  <meta itemprop="datePublished" content="2024-06-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-06-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="269">
+  <meta itemprop="keywords" content="Generative AI,Computer Vision,Medical">
+  
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TY8767RX3C"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-TY8767RX3C');
+        }
+      </script>
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/logo_rounded.ico" type="image/x-icon">
+  <link rel="icon" href="/img/logo_rounded.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.2f79f96c8b38f93881392f87753055203b777c753973466c443295a2caa459f2.css" integrity="sha256-L3n5bIs4&#43;TiBOS&#43;HdTBVIDt3fHU5c0ZsRDKVosqkWfI=" media="screen">
+  
+  
+  <script src="/panelset.min.ed1ac24b6e16f4e2481e3d1d098ae66f5bc77438aef619e6e266d8ac5b00dc72.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.9990ba2bfeec8585a251e396bb33b722babae0de5091d95c0522bb278a7846be.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:1313/" title="Home">
+      <img src="/img/logo_noBg.svg" class="dib db-l h2 w-auto" alt="Gavin Yue">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publication/" title="Research Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/contact/" title="Contact form">Contact</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Explainable AI - Controlable Image Generation</h1>
+        <h2 class="f4 mt0 mb4 lh-title measure">Analysed the intermediate latent spaces in generative AI models: StyleGAN and Diffusion models.</h2>
+        
+        <p class="f6 measure lh-copy mv1">By Gavin Yue in <a href="http://localhost:1313/categories/generative-ai">Generative AI</a>  <a href="http://localhost:1313/categories/computer-vision">Computer Vision</a>  <a href="http://localhost:1313/categories/medical">Medical</a> </p>
+        
+      
+      <div class="ph0 pt5">
+        
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="/project/explanable-ai/poster_hsmr.pdf" ><i class="fas fa-file-pdf fa-lg fa-fw mr2"></i>Poster</a>
+
+
+      </div>
+      
+      </header>
+      <section class="post-body pt5 pb4">
+        
+
+
+
+<h2 id="introduction">Introduction
+  <a href="#introduction" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This project investigates semantic disentanglement techniques to analyse the intermediate latent spaces in generative AI models, such as <strong>StyleGAN</strong> and <strong>Diffusion models</strong>. By isolating and utilising these disentangled features, we aim to develop prognostic models for lung diseases that are more interpretable for clinicians and researchers. This approach will facilitate the identification of novel biomarkers for lung disease prognosis. The detailed project in medical domain can be found in the 
+<a href="project/explanable-ai/poster_hsmr.pdf">poster</a>.</p>
+<div style="text-align: center"><img src="intro.webp" alt="" width="100%"/></div>
+
+
+
+
+<h3 id="what-is-xai">What is XAI?
+  <a href="#what-is-xai" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>XAI is short for Explainable AI. In other words, it is the set of techniques and methods created to make understandable and interpretable to humans decision-making processes developed by AI systems. Unlike a traditional black box AI model that offers little insight into how its conclusions are drawn, XAI provides clear and concise explanations, which help a user understand why an AI-made decision was chosen.</p>
+
+
+
+
+<h3 id="the-black-box-problem-in-ai">The Black Box Problem in AI
+  <a href="#the-black-box-problem-in-ai" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>AI systems, and especially those involving deep learning, are mostly black boxes. Thus, even when they make excellent predictions, people cannot explain what the reasonings are. Some of the associated problems are discussed below:</p>
+<p>Lack of Trust: It would be very challenging for the stakeholders to put faith in an AI system where people cannot know why a particular decision was taken.
+Regulatory Obstacles: Many sectors are regulated to be transparent in the decision-making process.
+Ethical Concerns: Without understanding the logic behind AI decisions, businesses risk perpetuating biases and making unethical decisions.</p>
+<p>The black box nature of AI is particularly problematic in high-stakes industries such as finance, healthcare, and law, where decisions can significantly impact people&rsquo;s lives.</p>
+
+
+
+
+<h2 id="letent-space-in-generative-ai">Letent Space in Generative AI
+  <a href="#letent-space-in-generative-ai" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div style="text-align: center"><img src="intro2.png" alt="" width="100%"/></div>
+
+
+
+
+<h2 id="result">Result
+  <a href="#result" title="Link to heading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<div style="text-align: center"><img src="result1.jpeg" alt="" width="100%"/></div>
+          
+          
+          
+<details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">June 18, 2024</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">2 minute read, 269 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="http://localhost:1313/categories/generative-ai">Generative AI</a>  <a href="http://localhost:1313/categories/computer-vision">Computer Vision</a>  <a href="http://localhost:1313/categories/medical">Medical</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+        
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="http://localhost:1313/project/explanable-ai/">Explainable AI - Controlable Image Generation &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2025 Gavin Yue
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/gavin-yue/" title="" target="_blank" rel="me noopener">
+      
+        <i class="fab fa-linkedin fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/zhilinggavin" title="" target="_blank" rel="me noopener">
+      
+        <i class="fab fa-github fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://scholar.google.com/citations?user=0w6wRvkAAAAJ&amp;hl=en" title="" target="_blank" rel="me noopener">
+      
+        <i class="ai ai-google-scholar fa-lg fa-fw"></i>
+      
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/CV-Gavin-MLEngineer.pdf" title="" >
+      
+        <i class="ai ai-cv fa-lg fa-fw"></i>
+      
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/accessibility/" title="Accessibility Commitment">Accessibility</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact Form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License Details">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml/" title="Subscribe via RSS">RSS</a>
+      
+    </div>
+  </nav>
+  
+</footer>
+
+      </div>
+    </body>
+</html>

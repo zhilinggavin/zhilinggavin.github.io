@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation on Gavin Yue</title>
+    <link>http://localhost:1313/categories/simulation/</link>
+    <description>Recent content in Simulation on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HSI Absorption – Optical Modelling for Histological Image Segmentation</title>
+      <link>http://localhost:1313/project/hsi-absorption/</link>
+      <pubDate>Sat, 11 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/hsi-absorption/</guid>
+      <description>Simulating hyperspectral absorption in MATLAB to perform label-free tissue segmentation using haemoglobin spectral properties</description>
+    </item>
+  </channel>
+</rss>

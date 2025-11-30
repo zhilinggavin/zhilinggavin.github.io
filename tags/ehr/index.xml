@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EHR on Gavin Yue</title>
+    <link>http://localhost:1313/tags/ehr/</link>
+    <description>Recent content in EHR on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Apr 2022 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ehr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records</title>
+      <link>http://localhost:1313/talk/dbei-research-day/</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/dbei-research-day/</guid>
+      <description>Flashtalk and poster presenting preliminary results for a study on TBI among female patients at Penn Medicine</description>
+    </item>
+    <item>
+      <title>Lessons Learned from the EHR</title>
+      <link>http://localhost:1313/talk/tdw-ehr-lessons/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/tdw-ehr-lessons/</guid>
+      <description>&lt;a href=&#34;https://rohanalexander.com/toronto_data_workshop.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Toronto Data Workshop&lt;/a&gt; talk about working with Electronic Health Record data</description>
+    </item>
+    <item>
+      <title>The Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data</title>
+      <link>http://localhost:1313/talk/amia-informatics-summit/</link>
+      <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/amia-informatics-summit/</guid>
+      <description>Applied Clinical Research Informatics: Solving Real World Problems. Oral Presentations S17: March 23, 2021 11:30am-1pm ET</description>
+    </item>
+  </channel>
+</rss>

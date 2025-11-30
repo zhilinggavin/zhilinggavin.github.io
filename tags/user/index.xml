@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UseR on Gavin Yue</title>
+    <link>http://localhost:1313/tags/user/</link>
+    <description>Recent content in UseR on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jul 2021 16:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/user/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Professional, Polished, Presentable: Making Great Slides with xaringan</title>
+      <link>http://localhost:1313/talk/presentable-user2021/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/presentable-user2021/</guid>
+      <description>A &#xA;&lt;a href=&#34;https://user2021.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;useR!2021&lt;/a&gt; tutorial about making great slides with xaringan</description>
+    </item>
+  </channel>
+</rss>

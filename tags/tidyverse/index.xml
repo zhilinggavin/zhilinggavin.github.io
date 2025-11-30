@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidyverse on Gavin Yue</title>
+    <link>http://localhost:1313/tags/tidyverse/</link>
+    <description>Recent content in Tidyverse on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Aug 2020 17:40:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Antarctic Tour of the Tidyverse</title>
+      <link>http://localhost:1313/talk/tour-of-the-tidyverse/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talk/tour-of-the-tidyverse/</guid>
+      <description>An introductory tidyverse tutorial created and presented for &#xA;&lt;a href=&#34;https://rladieschicago.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Ladies Chicago&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Migrating from Trello to Airtable: Working with JSON Data in R</title>
+      <link>http://localhost:1313/blog/trello-to-airtable/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/trello-to-airtable/</guid>
+      <description>Tutorial on how to migrate your current Trello board to an Airtable base from start to finish.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Viz on Gavin Yue</title>
+    <link>http://localhost:1313/tags/data-viz/</link>
+    <description>Recent content in Data Viz on Gavin Yue</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/data-viz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources for Data Viz Accessibility</title>
+      <link>http://localhost:1313/blog/curated-compilations/data-viz-a11y/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/curated-compilations/data-viz-a11y/</guid>
+      <description>&lt;script src=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/clipboard/clipboard.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/xaringanExtra-clipboard/xaringanExtra-clipboard.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script&gt;window.xaringanExtraClipboard(null, {&#34;button&#34;:&#34;&lt;i class=\&#34;fa fa-clipboard\&#34;&gt;&lt;\/i&gt; Copy Code&#34;,&#34;success&#34;:&#34;&lt;i class=\&#34;fa fa-check\&#34; style=\&#34;color: #90BE6D\&#34;&gt;&lt;\/i&gt; Copied!&#34;,&#34;error&#34;:&#34;Press Ctrl+C to Copy&#34;})&lt;/script&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/font-awesome/css/all.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;link href=&#34;http://localhost:1313/blog/curated-compilations/data-viz-a11y/index_files/font-awesome/css/v4-shims.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;style type=&#34;text/css&#34;&gt;&#xA;/*.main {&#xA;  display: grid | inline-grid;&#xA;}&#xA;&#xA;.grid-container {&#xA;  display: grid;&#xA;  grid-template-columns: 1fr 4fr;&#xA;  grid-auto-flow: row;&#xA;  grid-gap: 10px 10px;&#xA;}&#xA;&#xA;&#xA;.grid-item {&#xA;  /*background-color: rgba(255, 255, 255, 0.8);*/&#xA;  border: 1px solid rgba(0, 0, 0, 0.8);&#xA;  /*padding: 20px;&#xA;  font-size: 18px;&#xA;  line-height: 1.5em;*/&#xA;  text-align: left;&#xA;  height: auto;&#xA;} */&#xA;&#xA;/* -- css for images --*/  &#xA;.page-main img {&#xA;  box-shadow: 0px 0px 2px 2px rgba( 0, 0, 0, 0.2 );&#xA;  #/* ease | ease-in | ease-out | linear */&#xA;  transition: transform ease-in-out 2s;&#xA;}&#xA;&#xA;.page-main img:hover {&#xA;  transform: scale(1.4);&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;&lt;strong&gt;Updated on 2021-11-19&lt;/strong&gt; to include a link to a series of educational blog posts written by Mara Averick that cover {highcharter} and the accessibility module in detail. Thank you Mara!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
